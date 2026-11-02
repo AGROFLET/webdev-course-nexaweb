@@ -1,0 +1,33 @@
+<main class="tarjeta">
+  <header class="encabezado">
+    <h1>¡Hola! Soy Sam</h1>
+    <p class="subtitulo">Mi primera página web</p>
+    <p>Me gusta aprender, crear y compartir ideas.</p>
+  </header>
+
+  <section>
+    <h2>Sobre mí</h2>
+    <p>Estoy aprendiendo HTML y CSS paso a paso.</p>
+  </section>
+
+  <section>
+    <h2>Mis pasatiempos</h2>
+    <ul>
+      <li>Crear animaciones</li>
+      <li>Tocar guitarra</li>
+      <li>Programar minijuegos</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Una imagen de ejemplo</h2>
+    <img src="https://placehold.co/640x360/png?text=Mi+pasatiempo"
+         alt="Ilustración de ejemplo con el texto Mi pasatiempo">
+  </section>
+
+  <footer>
+    <a href="https://developer.mozilla.org/es/">
+      Sigue aprendiendo sobre desarrollo web
+    </a>
+  </footer>
+</main>
