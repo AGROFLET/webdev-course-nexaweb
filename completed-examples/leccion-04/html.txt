@@ -1,0 +1,29 @@
+<main class="tarjeta">
+  <h1>¡Hola! Soy Alex</h1>
+  <p>Estudiante que disfruta crear cosas.</p>
+
+  <section>
+    <h2>Sobre mí</h2>
+    <p>Me gustan el arte y la tecnología.</p>
+  </section>
+
+  <section>
+    <h2>Mis pasatiempos</h2>
+    <ul>
+      <li>Escuchar música</li>
+      <li>Dibujar</li>
+      <li>Explorar la ciencia</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Una imagen de ejemplo</h2>
+    <img src="https://placehold.co/640x360/png?text=Mi+pasatiempo"
+         alt="Ilustración de ejemplo con el texto Mi pasatiempo">
+    <p>
+      <a href="https://developer.mozilla.org/es/">
+        Aprender más sobre desarrollo web
+      </a>
+    </p>
+  </section>
+</main>
