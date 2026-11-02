@@ -1,0 +1,9 @@
+<main>
+  <h1>¡Hola! Soy Alex</h1>
+  <p>Estudiante que disfruta crear cosas.</p>
+
+  <section>
+    <h2>Sobre mí</h2>
+    <p>Me gustan el arte y la tecnología.</p>
+  </section>
+</main>
