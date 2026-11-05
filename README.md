@@ -152,9 +152,8 @@ La planificación original reserva aproximadamente cinco minutos para explicaci�
 
 </details>
 
-- 🎬 **Ver la lección · YouTube no listado:** [PENDIENTE: enlace real].
-- 💻 **Abrir la práctica precargada:** [PENDIENTE: enlace real].
-- ⏱️ **Duración real del video:** [PENDIENTE].
+- 🎬 **Ver la lección · YouTube no listado:** https://www.youtube.com/watch?v=HG5fm3deAzU.
+- ⏱️ **Duración real del video:** 0:00 - 10:56.
 - 📂 **Punto de partida:** [HTML](starter-files/leccion-03/html.txt) · [CSS](starter-files/leccion-03/css.txt).
 - 🔎 **Comparar con la solución:** [HTML](completed-examples/leccion-03/html.txt) · [CSS](completed-examples/leccion-03/css.txt).
 
@@ -184,9 +183,8 @@ La planificación original reserva aproximadamente cinco minutos para explicaci�
 
 **Paso importante:** el HTML inicial contiene `<main>`. Antes de aplicar `.tarjeta`, cámbialo a `<main class="tarjeta">`. El punto pertenece al selector CSS; el valor del atributo HTML es `tarjeta`, sin punto. La solución de esta lección ya incluye ese cambio.
 
-- 🎬 **Ver la lección · YouTube no listado:** [PENDIENTE: enlace real].
-- 💻 **Abrir la práctica precargada:** [PENDIENTE: enlace real].
-- ⏱️ **Duración real del video:** [PENDIENTE].
+- 🎬 **Ver la lección · YouTube no listado:** https://www.youtube.com/watch?v=TwUxRQDi86g.
+- ⏱️ **Duración real del video:** 0:00 - 15:01.
 - 📂 **Punto de partida:** [HTML](starter-files/leccion-04/html.txt) · [CSS](starter-files/leccion-04/css.txt).
 - 🔎 **Comparar con la solución:** [HTML](completed-examples/leccion-04/html.txt) · [CSS](completed-examples/leccion-04/css.txt).
 
