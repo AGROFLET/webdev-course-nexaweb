@@ -94,9 +94,8 @@ La planificación original reserva aproximadamente cinco minutos para explicaci�
 
 </details>
 
-- 🎬 **Ver la lección · YouTube no listado:** [PENDIENTE: enlace real].
-- 💻 **Abrir la práctica precargada:** [PENDIENTE: enlace real].
-- ⏱️ **Duración real del video:** [PENDIENTE].
+- 🎬 **Ver la lección · YouTube no listado:** https://www.youtube.com/watch?v=-zTOCD5KhS8
+- ⏱️ **Duración real del video:** 0:00 - 13:23.
 - 📂 **Punto de partida:** [HTML](starter-files/leccion-01/html.txt) · [CSS](starter-files/leccion-01/css.txt).
 - 🔎 **Comparar con la solución:** [HTML](completed-examples/leccion-01/html.txt) · [CSS](completed-examples/leccion-01/css.txt).
 
@@ -124,9 +123,8 @@ La planificación original reserva aproximadamente cinco minutos para explicaci�
 
 </details>
 
-- 🎬 **Ver la lección · YouTube no listado:** [PENDIENTE: enlace real].
-- 💻 **Abrir la práctica precargada:** [PENDIENTE: enlace real].
-- ⏱️ **Duración real del video:** [PENDIENTE].
+- 🎬 **Ver la lección · YouTube no listado:** https://www.youtube.com/watch?v=BrqkBeCjfSs
+- ⏱️ **Duración real del video:** 0:00 - 10:47.
 - 📂 **Punto de partida:** [HTML](starter-files/leccion-02/html.txt) · [CSS](starter-files/leccion-02/css.txt).
 - 🔎 **Comparar con la solución:** [HTML](completed-examples/leccion-02/html.txt) · [CSS](completed-examples/leccion-02/css.txt).
 
@@ -216,9 +214,8 @@ La planificación original reserva aproximadamente cinco minutos para explicaci�
 
 </details>
 
-- 🎬 **Ver la lección · YouTube no listado:** [PENDIENTE: enlace real].
-- 💻 **Abrir la práctica precargada:** [PENDIENTE: enlace real].
-- ⏱️ **Duración real del video:** [PENDIENTE].
+- 🎬 **Ver la lección · YouTube no listado:** https://www.youtube.com/watch?v=DkaW0ZYpFiw
+- ⏱️ **Duración real del video:** 0:00 - 11:02.
 - 📂 **Punto de partida:** [HTML](starter-files/leccion-05/html.txt) · [CSS](starter-files/leccion-05/css.txt).
 - 🔎 **Comparar con la solución:** [HTML](completed-examples/leccion-05/html.txt) · [CSS](completed-examples/leccion-05/css.txt).
 
