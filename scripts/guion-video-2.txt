@@ -1,0 +1,41 @@
+VIDEO 2 — HTML: la estructura
+Responsable: integrante 2
+Duración: 10 minutos y 47 segundos (aprox. 7 min teoría + 3 min 40 seg práctica)
+
+PARTE A — EXPLICACIÓN CON DIAPOSITIVAS
+
+00:00–01:08 | Diapositiva 1: HTML: la estructura
+Hola. Pasando a la lección 2, hoy hablaremos acerca de la estructura HTML y aprenderemos a organizar los contenidos de una página web. Para dar un breve contexto, todos conocemos sitios como YouTube, Google o Canva. Aunque son plataformas distintas, tienen algo en común: poseen una estructura que les permite ordenar su contenido. En YouTube, por ejemplo, encontramos el título del video, la descripción y la sección de sugerencias. Todo esto necesita estar organizado para que podamos entender lo que vemos, y justamente HTML nos ayuda a crear esa organización.
+
+01:08–02:19 | Diapositiva 2: ¿Qué es una etiqueta HTML?
+Ahora bien, ¿qué es una etiqueta HTML? Las etiquetas indican qué tipo de contenido estamos escribiendo. Imaginemos que escribimos un título como «Mi página favorita» sin usar etiquetas; el navegador mostraría el texto, pero no sabría si es un encabezado principal o un párrafo común. Por eso usamos etiquetas: para indicarle qué función cumple cada elemento. Como dato importante, la etiqueta de cierre siempre lleva una barra inclinada o slash (/). Siempre que abramos una etiqueta, como <h1>, debemos cerrarla con </h1> para evitar errores. Recuerda: etiquetas más contenido es igual a un elemento HTML.
+
+02:19–03:28 | Diapositiva 3: Elementos y atributos
+Pasemos a ver los elementos y atributos. Un atributo agrega información o características adicionales a un elemento, y siempre va dentro de la etiqueta de apertura. Para entenderlo mejor, imaginemos un salón de clases: todos somos estudiantes, pero cada uno tiene su propio nombre para identificarse. Algo parecido ocurre con el atributo class. Podemos tener muchos párrafos en nuestra página, pero al agregar class="presentacion", identificamos ese párrafo específico donde hablamos de nosotros. Más adelante, en la lección de CSS, usaremos esta clase para darle un estilo propio, cambiar su color o su tamaño.
+
+03:28–04:56 | Diapositiva 4: ¿Cómo se organiza un documento HTML?
+¿Cómo se organiza un documento HTML completo? Detrás de todo lo visual que vemos en una web existe un código base que lo ordena, dividido en dos grandes partes principales: head y body. En el head van los datos de la página que no se muestran directamente dentro del contenido visual, como la etiqueta <title>, que define el nombre que aparece en la pestaña del navegador, o los enlaces hacia nuestros estilos CSS. En cambio, dentro del body colocamos todo el contenido que sí vemos normalmente en la pantalla del navegador, como los títulos grandes y los textos.
+
+04:56–06:16 | Diapositiva 5: Títulos, párrafos y secciones
+Hablemos ahora de títulos, párrafos y secciones, ya que organizar el contenido facilita mucho su lectura. Si estuviéramos creando una página sobre nuestro videojuego favorito, usaríamos primero la etiqueta <h1> para el título principal y la etiqueta <p> para escribir una breve descripción. Luego, podemos usar <section> para agrupar bloques temáticos, como una parte dedicada a nuestros personajes favoritos. Dentro de esa sección colocamos un subtítulo con <h2> y otro párrafo <p>. Es muy parecido a hacer un trabajo escolar con títulos, subtítulos y párrafos separados para que toda la información no quede mezclada.
+
+06:16–07:09 | Diapositiva 6: Práctica 2 · Estructura tu perfil
+Ahora pasemos a la práctica 2: estructura tu perfil. Continuaremos trabajando en nuestro editor web en línea, CodePen, retomando el proyecto de la lección anterior. Esta vez organizaremos nuestro contenido dentro de la etiqueta <main>, añadiendo un título <h1>, un párrafo <p> y una sección <section> que contenga un subtítulo <h2> y otro párrafo <p>. Lo interesante es que cada uno puede crear una página diferente usando estas mismas etiquetas, siempre recordando cerrar cada etiqueta que abramos. Vamos a la acción en el editor.
+
+PARTE B — PRÁCTICA EN EL EDITOR EN LÍNEA
+
+07:09–07:44 | Limpiar el área de trabajo y crear la etiqueta main
+ACCIÓN: Muestra el editor CodePen con el código de la lección anterior. Borra el contenido antiguo dentro de <body> y escribe las etiquetas de apertura y cierre <main></main>.
+GUION: Ya estamos en nuestro editor web. Primero vamos a borrar el texto que trabajamos en la lección anterior dentro del body, ya que hoy organizaremos todo dentro de la etiqueta <main>. Como consejo práctico, cada vez que escriban una etiqueta de apertura, creen de inmediato su etiqueta de cierre. De esta manera no se olvidarán de cerrarla mientras escriben el contenido y evitarán errores en el código.
+
+07:44–08:43 | Añadir el título principal y el párrafo de presentación
+ACCIÓN: Dentro de <main>, escribe <h1>¡Hola! Soy Alex</h1> y debajo añade <p>Estudiante que disfruta crear cosas.</p>. Observa cómo se actualiza la vista previa en la parte inferior.
+GUION: Ahora que tenemos nuestro <main>, vamos a colocar el título principal usando la etiqueta <h1> y escribimos «¡Hola! Soy Alex». Como vemos en la vista previa, se muestra con un tamaño grande y destacado. Debajo del título, agregamos un párrafo con la etiqueta <p> para poner una breve descripción, por ejemplo: «Estudiante que disfruta crear cosas.». Con esto ya tenemos nuestro encabezado y presentación listos.
+
+08:43–10:15 | Crear la sección «Sobre mí» con subtítulo y párrafo
+ACCIÓN: Debajo del párrafo anterior, abre y cierra la etiqueta <section>. Dentro de ella, escribe <h2>Sobre mí</h2> y <p>Me gustan el arte y la tecnología.</p>. Selecciona los elementos en la vista previa para comparar los tamaños.
+GUION: Para ser más específicos y ordenar mejor la información, crearemos una sección para la parte «Sobre mí». Escribimos la etiqueta de apertura <section> y la cerramos enseguida. Dentro de este bloque, colocamos un subtítulo usando <h2> con el texto «Sobre mí». Notarán en la vista previa que <h2> tiene un tamaño un poco menor que el título principal <h1>. Finalmente, añadimos otro párrafo <p> que diga: «Me gustan el arte y la tecnología.».
+
+10:15–10:47 | Revisar la estructura final y despedida
+ACCIÓN: Muestra el código HTML completo dentro de <main> junto con el resultado renderizado en la vista previa de CodePen.
+GUION: Como pueden observar en el resultado, ya tenemos nuestro título principal, un subtítulo y nuestros párrafos perfectamente estructurados. Recuerden que las etiquetas siempre serán las mismas, pero la diferencia es que ustedes pueden personalizar y crear el contenido que deseen dentro de ellas. Con esto terminamos la lección 2 y doy paso a que continúes en este recorrido hacia la lección 3. Muchas gracias.
