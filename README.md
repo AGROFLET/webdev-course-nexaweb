@@ -78,8 +78,10 @@ Período 202620 — Curso 1ASI0730 Aplicaciones Web
 
 **👥 Información del Equipo**
 *   **Nombre del equipo:** NexaWeb
-*   **Líder del equipo:** [Nombres y Apellidos del líder]
-*   **Fecha de entrega:** [Fecha]
+*   **Líder del equipo:** Rivas Castillo, Christoper Steven.
+*   **Fecha de entrega:** 13/11/26
+
+---
 
 **Integrantes del equipo:**
 *   Alca Morán, César Alejandro.
