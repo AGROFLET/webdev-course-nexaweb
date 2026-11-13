@@ -1,0 +1,57 @@
+VIDEO 3 — HTML: el contenido
+Responsable: integrante 3
+Duración: 10 minutos y 56 segundos (aprox. 3 min teoría + 8 min práctica)
+
+PARTE A — EXPLICACIÓN CON DIAPOSITIVAS
+
+00:00–00:16 | Diapositiva 1: HTML: el contenido
+Hola. Bienvenidos a la tercera lección del curso. Ya conocemos la estructura básica de una página web. Hoy vamos a completar su contenido utilizando encabezados, párrafos, listas, imágenes y enlaces. Después aplicaremos estos elementos en nuestro perfil mediante CodePen.
+
+00:16–00:50 | Diapositiva 2: Encabezados y párrafos
+Primero vamos a recordar dos elementos importantes de HTML: los encabezados y los párrafos. La etiqueta <h1> se utiliza para el título principal de la página, mientras que <h2> nos ayuda a dividir la información en temas o secciones. Para escribir texto normal usamos <p>. Por ejemplo, podemos colocar «Mi perfil» como título, «Mis intereses» como subtítulo y una oración donde expliquemos qué nos gusta hacer. Así, el contenido tiene una organización clara y es más sencillo de leer.
+
+00:50–01:24 | Diapositiva 3: Las listas agrupan ideas
+Cuando queremos presentar varios elementos relacionados, podemos utilizar listas. En HTML tenemos las listas sin orden, que se crean con <ul>, y las listas ordenadas, que se crean con <ol>. Dentro de ambas escribimos cada elemento mediante la etiqueta <li>. Por ejemplo, una lista con viñetas puede mostrar nuestros pasatiempos, como escuchar música o dibujar. En cambio, una lista numerada es útil si queremos explicar una secuencia de pasos. La diferencia principal es si el orden de los elementos resulta importante.
+
+01:24–01:59 | Diapositiva 4: Las imágenes también cuentan historias
+También podemos agregar imágenes para hacer más completo nuestro sitio. Para ello utilizamos la etiqueta <img>. Uno de sus atributos es src, donde colocamos la dirección del archivo que queremos mostrar. Otro atributo muy importante es alt, que contiene una descripción de la imagen y facilita la accesibilidad. Por ejemplo, podemos insertar una fotografía o una ilustración relacionada con un pasatiempo. Debemos asegurarnos de usar una dirección válida y una descripción que realmente explique su contenido.
+
+01:59–02:26 | Diapositiva 5: Los enlaces conectan páginas
+Los enlaces permiten que una persona visite otras páginas desde nuestro sitio. Se crean con la etiqueta <a> y el atributo href, que indica la dirección de destino. Entre la etiqueta de apertura y la de cierre colocamos el texto que verá el visitante. En nuestro ejemplo podemos escribir «Aprender más sobre HTML» y dirigirlo a la documentación de MDN Web Docs. Es recomendable que el texto del enlace indique claramente adónde nos llevará.
+
+02:26–02:53 | Diapositiva 6: Práctica 3 · Completa tu contenido
+Ahora vamos a aplicar lo aprendido en nuestro editor web. Partiremos de la página de perfil que ya tiene un título, una presentación y una sección «Sobre mí». Agregaremos una lista de pasatiempos, una imagen de ejemplo y un enlace. Durante la práctica observaremos cómo se actualiza la vista previa de CodePen y comprobaremos que cada etiqueta tenga la función que esperamos.
+
+PARTE B — PRÁCTICA EN EL EDITOR EN LÍNEA
+
+02:53–03:45 | Abrir CodePen y revisar el perfil inicial
+ACCIÓN: Muestra CodePen. Revisa el código HTML que ya contiene <main>, el título «¡Hola! Soy Alex», el párrafo de presentación y la sección «Sobre mí». Señala la vista previa que aparece debajo del editor.
+GUION: Ya estamos en CodePen. Vamos a continuar con la página que construimos en la lección anterior. En el panel HTML tenemos un elemento <main>, que contiene la información principal. Dentro aparece un encabezado <h1> con el texto «¡Hola! Soy Alex», un párrafo de presentación y una sección con el título «Sobre mí». Si observamos la parte inferior, podemos ver cómo interpreta el navegador ese código. Nuestro objetivo ahora es mantener esta estructura y agregar nuevos elementos, sin borrar lo que ya funciona.
+
+03:45–04:48 | Crear la sección «Mis pasatiempos» y preparar una lista
+ACCIÓN: Debajo de «Sobre mí», crea una nueva <section>. Dentro escribe el encabezado <h2>Mis pasatiempos</h2>. Luego agrega las etiquetas <ul> y </ul> para preparar una lista sin orden.
+GUION: Empezaremos creando una sección nueva. Escribimos la etiqueta de apertura <section> y, al final, su correspondiente cierre. Dentro colocamos un encabezado de segundo nivel con el texto «Mis pasatiempos». De esta manera se distingue de la información anterior. Para organizar las actividades que vamos a mencionar utilizaremos una lista sin orden, porque no necesitamos que aparezcan numeradas. Por eso escribimos <ul> y </ul>. Estas etiquetas delimitan la lista, pero todavía tenemos que introducir cada una de las actividades con elementos individuales.
+
+04:48–05:44 | Añadir tres elementos a la lista de pasatiempos
+ACCIÓN: Dentro de <ul> incorpora tres elementos <li>. Los textos que aparecen en el video son «Escuchar música», «Dibujar» y «Explorar la ciencia». Comprueba que se muestren con viñetas en la vista previa.
+GUION: Ahora colocamos el contenido de nuestra lista. Para cada pasatiempo utilizamos la etiqueta <li>, que representa un elemento individual. En el primer caso escribimos «Escuchar música», en el segundo «Dibujar» y en el tercero «Explorar la ciencia». Recuerden que cada elemento debe ir dentro de sus propias etiquetas de apertura y cierre. Si miramos la vista previa, veremos que aparecen tres viñetas, una por cada actividad. Eso significa que el navegador reconoce correctamente la estructura de la lista. Podemos cambiar los textos por nuestros intereses personales sin modificar las etiquetas.
+
+05:44–06:20 | Crear la sección destinada a la imagen
+ACCIÓN: Debajo de la lista, crea otra <section> y escribe el encabezado <h2>Una imagen de ejemplo</h2>. Prepara el lugar donde se insertará la imagen.
+GUION: Nuestra página ya tiene una presentación y una lista de intereses. El siguiente paso es agregar una imagen. Para mantener el contenido ordenado, creamos otra sección y colocamos un subtítulo que dice «Una imagen de ejemplo». Debajo de ese subtítulo irá la etiqueta que mostrará la ilustración. Podemos observar que el título aparece de inmediato en la vista previa, aunque todavía no hemos colocado la imagen. Así identificamos el espacio de la nueva sección antes de continuar.
+
+06:20–07:30 | Comprobar una imagen de ejemplo mediante una URL
+ACCIÓN: Cambia temporalmente a la pestaña que muestra una imagen generada con placehold.co. Observa el ejemplo con texto «Mi pasatiempo», prueba el texto «Mi horario» y regresa al editor para utilizar una dirección de imagen válida.
+GUION: Para esta práctica vamos a utilizar una imagen de ejemplo que podemos obtener desde una dirección web, sin necesidad de subir una fotografía personal. Abrimos la dirección en el navegador y comprobamos que se muestra una ilustración de tamaño 640 por 360 píxeles. La imagen contiene un texto que podemos personalizar modificando la dirección. Por ejemplo, se puede mostrar «Mi pasatiempo» o «Mi horario». Esta prueba nos ayuda a entender que el atributo src necesita una URL que apunte directamente a una imagen. Después volveremos a CodePen para colocar esa dirección dentro de nuestro documento HTML.
+
+07:30–08:45 | Insertar la imagen con src y describirla con alt
+ACCIÓN: En la sección de imagen, escribe <img> con src="https://placehold.co/640x360/png?text=Mi+pasatiempo" y añade alt="Ilustración de ejemplo con texto Mi pasatiempo". Comprueba la aparición de la ilustración en la vista previa.
+GUION: Volvemos al panel HTML y añadimos la etiqueta <img>. En el atributo src colocamos la dirección que acabamos de comprobar. Cuando el navegador puede acceder a esa dirección, carga la imagen dentro de nuestra página. En este caso veremos un recuadro de ejemplo con el texto «Mi pasatiempo». Pero no basta con indicar la dirección: también tenemos que añadir alt. Este atributo explica qué representa la imagen y resulta especialmente útil para las personas que utilizan tecnologías de asistencia. Escribimos una descripción relacionada con lo que se muestra. Recuerden que <img> es una etiqueta vacía: no necesitamos escribir una etiqueta de cierre como sucede con los párrafos.
+
+08:45–10:12 | Añadir un enlace a MDN Web Docs
+ACCIÓN: Dentro de la misma sección, agrega un párrafo <p> y una etiqueta <a>. Escribe el texto «Aprende más sobre desarrollo web» y configura href="https://developer.mozilla.org/es/". Verifica que el texto aparezca como enlace en la vista previa.
+GUION: Para completar nuestra página falta incluir un enlace. Primero creamos un párrafo que contendrá ese elemento y, dentro, escribimos la etiqueta <a>. Entre la apertura y el cierre ponemos un texto descriptivo: «Aprende más sobre desarrollo web». Después añadimos el atributo href, que indica a qué página dirigiremos al visitante. En este caso usaremos la dirección de MDN Web Docs en español, donde podemos encontrar información educativa sobre HTML y otras tecnologías web. Al terminar de escribir la etiqueta observamos la vista previa. Ahora el texto aparece como un enlace que se puede seleccionar. Es importante recordar que la etiqueta <a> define el enlace, mientras que href especifica su destino. Un texto descriptivo ayuda a que el usuario sepa qué encontrará al abrirlo.
+
+10:12–10:56 | Revisar el resultado y cerrar la lección
+ACCIÓN: Muestra en CodePen el contenido final, desplázate por la vista previa y comprueba el encabezado, «Sobre mí», la lista de tres pasatiempos, la imagen «Mi pasatiempo» y el enlace «Aprende más sobre desarrollo web».
+GUION: Finalmente, vamos a revisar lo que hemos construido. Nuestra página conserva el título y la presentación inicial, pero ahora también incluye una lista con tres pasatiempos, una imagen y un enlace hacia un recurso educativo. Cada parte tiene su propia función: los encabezados organizan, los párrafos explican, las listas agrupan ideas, las imágenes complementan el contenido y los enlaces nos permiten navegar. Con esto hemos completado la tercera lección y tenemos una página de perfil más desarrollada. En la siguiente etapa podremos mejorar su apariencia utilizando CSS.
