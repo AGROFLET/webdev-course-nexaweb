@@ -1,0 +1,58 @@
+VIDEO 4 — CSS: dale estilo
+Responsable: Jose Alejandro Tello Lima
+Duración: 15 minutos y 01 segundo (aprox. 5 min de explicación + 10 min de práctica)
+Los tiempos indicados son aproximados.
+
+PARTE A — EXPLICACIÓN CON DIAPOSITIVAS
+
+00:00–00:39 | Diapositiva 1: CSS: dale estilo
+Hola. Bienvenidos a la cuarta lección del curso. En las lecciones anteriores construimos una página con títulos, párrafos, una lista, una imagen y un enlace. Ahora vamos a mejorar su presentación usando colores, tipos de letra, espacios y bordes. Primero veremos cómo se escribe una regla en CSS y después aplicaremos los cambios en CodePen. Al terminar, tendremos el mismo perfil organizado como una tarjeta y más cómodo de leer.
+
+00:39–01:34 | Diapositiva 2: ¿Cómo se escribe una regla CSS?
+Una regla CSS sirve para indicar cómo se presentan los elementos de una página. Veamos el ejemplo: primero aparece h1, que es el selector e indica que queremos modificar los títulos principales. Después abrimos una llave y escribimos los cambios. En la declaración color: royalblue;, la propiedad es color y el valor es royalblue, que representa un tono azul. También usamos font-size: 32px; para establecer el tamaño de la letra en 32 píxeles. Finalmente, cerramos la llave. Dentro de una misma regla podemos colocar varias declaraciones. En CodePen escribiremos estas reglas en el panel de CSS.
+
+01:34–02:18 | Diapositiva 3: Selectores
+Los selectores nos permiten elegir qué elementos queremos modificar. Por ejemplo, si escribimos p como selector, la regla se aplica a los párrafos. También podemos usar una clase para seleccionar los elementos que tengan un nombre específico. En nuestro HTML agregaremos class="tarjeta" dentro de la etiqueta de apertura de main. Luego, en CSS escribiremos .tarjeta. Hay una diferencia importante: en HTML el nombre de la clase se escribe sin punto, mientras que en CSS el selector de clase lleva un punto delante.
+
+02:18–03:18 | Diapositiva 4: Color y tipografía
+Para definir el estilo general de la página podemos usar el selector body. La propiedad background-color cambia el color del fondo; color modifica el color del texto; y font-family permite elegir el tipo de letra. En nuestro ejemplo usamos Arial y dejamos sans-serif como alternativa si la primera fuente no está disponible. Algunos colores aparecen como códigos que empiezan con el signo numeral. Se llaman códigos hexadecimales y no hace falta memorizarlos para comenzar. Lo importante es elegir colores que permitan leer fácilmente el contenido. Por ejemplo, podemos usar un fondo azul claro con texto oscuro.
+
+03:18–04:22 | Diapositiva 5: Centrar, separar y poner bordes
+Ahora veremos cómo dar forma a nuestra tarjeta. La propiedad max-width establece un ancho máximo; en este ejemplo será de 640 píxeles. Con margin: 30px auto; dejamos 30 píxeles arriba y abajo y distribuimos automáticamente el espacio a los lados para centrar la tarjeta cuando hay espacio disponible. Padding crea espacio por dentro, entre el contenido y el borde; usaremos 24 píxeles. Border dibuja un contorno de dos píxeles, con línea continua y color gris claro. Por último, border-radius redondea las esquinas. Podemos imaginarlo como una caja: el margen queda fuera y el relleno queda dentro.
+
+04:22–05:03 | Diapositiva 6: Práctica 4 · Diseña tu página
+Vamos a aplicar estas ideas al perfil de la lección anterior. Primero agregaremos la clase tarjeta al elemento main. Después cambiaremos el fondo, el color del texto y la tipografía de la página. Luego daremos a la tarjeta un ancho máximo, margen, espacio interior y borde. Al final ajustaremos el título y la imagen, y comprobaremos que todo se lea bien. El reto será probar otro color sin perder el contraste. Observaremos los cambios después de cada regla. Ahora pasemos a CodePen.
+
+PARTE B — PRÁCTICA EN EL EDITOR EN LÍNEA
+
+05:03–06:07 | Abrir CodePen y agregar la clase
+ACCIÓN: Muestra el perfil en CodePen y señala los paneles HTML y CSS y la vista previa. En HTML, cambia la etiqueta de apertura <main> por <main class="tarjeta">.
+GUION: Aquí tenemos el perfil que ya construimos. Podemos reconocer el título, la presentación, las secciones, los pasatiempos, la imagen y el enlace. El contenido ya existe, así que hoy trabajaremos principalmente en su apariencia. Este es el panel HTML, aquí está el panel CSS y en esta zona vemos el resultado. Lo primero será agregar class="tarjeta" dentro de la etiqueta de apertura de main. La etiqueta de cierre sigue siendo la misma. Todavía no aparece una tarjeta blanca porque asignar una clase, por sí solo, no define su aspecto. Ahora escribiremos la regla que le dará estilo.
+
+06:07–08:10 | Cambiar el fondo, el texto y la tipografía
+ACCIÓN: En el panel CSS escribe una regla para body. Agrega background-color, color, font-family: Arial, sans-serif; y line-height: 1.6;. Observa la vista previa.
+GUION: Comenzamos escribiendo body y abrimos las llaves. Primero agregamos background-color para cambiar el fondo a un azul claro. Al observar la vista previa, vemos que el fondo deja de ser blanco. Después usamos color para modificar el color del texto. Continuamos con font-family: elegimos Arial como fuente principal y sans-serif como alternativa si Arial no está disponible. Finalmente agregamos line-height con un valor de 1.6. Este valor no necesita unidad porque funciona como un multiplicador del tamaño de la letra. De esta forma las líneas quedan más separadas y el texto se puede leer con mayor comodidad.
+
+08:10–09:29 | Centrar la tarjeta y agregar espacio interior
+ACCIÓN: Escribe el selector .tarjeta. Añade max-width: 640px;, margin: 30px auto; y padding: 24px;. Observa cómo cambia la posición del contenido.
+GUION: Ahora escribimos .tarjeta para dar estilo al elemento al que le asignamos esa clase. Comenzamos con max-width: 640px; para establecer su ancho máximo. Después agregamos margin: 30px auto;. Como podemos ver, el contenido deja de estar pegado al lado izquierdo y se centra gracias al valor auto. Los 30 píxeles corresponden al espacio exterior de arriba y abajo. A continuación escribimos padding: 24px;. Este espacio queda dentro de la tarjeta y evita que el contenido esté pegado a sus bordes.
+
+09:29–11:07 | Cambiar el fondo y los bordes de la tarjeta
+ACCIÓN: Dentro de .tarjeta agrega un fondo blanco, border: 2px solid #cbd5e1; y border-radius: 16px;. Muestra el resultado.
+GUION: Para distinguir la tarjeta del fondo azul de la página, agregamos background-color: white;. Ahora se puede apreciar la diferencia entre el fondo de la página y el fondo blanco de la tarjeta. Después añadimos border para crear un contorno de dos píxeles con línea continua y color gris claro. Esta línea nos ayuda a distinguir la tarjeta del fondo. Por último, usamos border-radius: 16px; para que las esquinas pasen de ser rectas a tener una forma redondeada.
+
+11:07–12:54 | Modificar el título y ajustar la imagen
+ACCIÓN: Agrega una regla h1 para cambiar el color del título a azul. Después escribe una regla img con max-width: 100%;, height: auto; y border-radius: 12px;.
+GUION: Continuamos con el título principal. Escribimos el selector h1 y le damos un color azul. Ahora vamos a trabajar con la imagen. Usamos max-width: 100%; para que su ancho no supere el espacio disponible. Después agregamos height: auto; para conservar sus proporciones. Finalmente, como hicimos con la tarjeta, utilizamos border-radius, esta vez con 12 píxeles, para redondear las esquinas de la imagen.
+
+12:54–13:26 | Cambiar el color del enlace
+ACCIÓN: Agrega una regla para el selector a y cambia el color del enlace. Observa el resultado en la vista previa.
+GUION: Ahora vamos a cambiar el color del enlace. Para seleccionarlo escribimos a en CSS y añadimos la propiedad color con el tono que queremos utilizar. En la vista previa podemos comprobar que el color del enlace ha cambiado y que sigue siendo visible.
+
+13:26–14:26 | Probar otro color para el título
+ACCIÓN: Cambia temporalmente el color del h1 de azul a verde oscuro. Observa el cambio y luego vuelve a colocar el color azul que se utilizó antes.
+GUION: Vamos a probar el reto de la lección. Cambiaremos el color del título de azul a verde oscuro. El texto sigue siendo el mismo; solo modificamos su presentación desde CSS. Al observar la vista previa, vemos que el título ahora aparece de color verde. Después podemos volver al azul del ejemplo colocando nuevamente el valor que teníamos antes. Al probar colores diferentes, debemos comprobar que el texto conserve suficiente contraste con el fondo.
+
+14:26–15:01 | Revisar el resultado final
+ACCIÓN: Muestra la vista previa del perfil y revisa el título, el espacio entre párrafos, la imagen y el enlace.
+GUION: Para terminar, revisamos que el título se distinga, que los párrafos tengan espacio y que la imagen se mantenga dentro de la tarjeta. También comprobamos que el enlace siga visible. Con esto hemos aplicado colores, tipografía, espacios y bordes usando CSS. Recordemos que HTML organiza el contenido y CSS define su presentación. Con esto hemos dado estilo a nuestra primera página. Gracias.
