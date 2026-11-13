@@ -1,0 +1,54 @@
+VIDEO 1 — La web a nuestro alrededor
+Responsable: integrante 1
+Duración: 13 minutos y 23 segundos (aprox. 7 min de explicación + 6 min de práctica)
+Los tiempos indicados son aproximados.
+
+PARTE A — EXPLICACIÓN CON DIAPOSITIVAS
+
+00:00–00:54 | Diapositiva 1: La web a nuestro alrededor
+¿Alguna vez te has preguntado qué sucede cuando abres una página para escuchar música, revisar tus clases o buscar información? Normalmente escribimos una dirección, presionamos Enter y esperamos que aparezca algo. Detrás de esa acción hay un proceso y varias tecnologías trabajando juntas. En esta primera lección vamos a conocer qué es una página web, cómo llega a nuestra pantalla y cuáles son las tecnologías que permiten construirla. También daremos nuestro primer paso como creadores: escribiremos un título y un párrafo para presentar algo sobre nosotros. No necesitas experiencia programando. Lo importante es observar, probar y entender qué cambia cuando modificas una instrucción.
+
+00:54–02:32 | Diapositiva 2: ¿Qué es una página web?
+Una página web es un documento digital que podemos abrir y explorar utilizando un navegador. Un navegador es una aplicación como Google Chrome, Microsoft Edge, Firefox o Safari. Su trabajo es interpretar la información de una página y mostrarnos el resultado en pantalla. Una página puede contener títulos, textos, imágenes, enlaces, videos y otros elementos. Por ejemplo, en un sitio escolar podemos consultar horarios, actividades y anuncios; en uno de música encontramos noticias y recomendaciones; y en una página personal podemos presentar nuestros gustos e intereses. También debemos distinguir entre página web y sitio web. Una página es una parte concreta, como la sección de horarios de un colegio, mientras que un sitio web reúne páginas relacionadas. Podemos imaginar el sitio como un libro y cada página web como una de sus páginas. Piensa en una web que hayas usado hoy: ¿la utilizaste para aprender, comunicarte, entretenerte o buscar información?
+
+02:32–03:58 | Diapositiva 3: ¿Cómo llega una web a tu pantalla?
+Vamos a explicar el proceso en tres pasos. Primero escribimos una dirección en el navegador. Segundo, el navegador solicita la información necesaria, que habitualmente se encuentra en un servidor: una computadora preparada para recibir solicitudes y enviar respuestas. Tercero, el navegador recibe los archivos, los interpreta y muestra el resultado en la pantalla. Podemos compararlo con una cafetería: haces un pedido, el personal recibe la solicitud y después te entrega lo que pediste. En la web, el navegador solicita los recursos y el servidor responde. Luego el navegador interpreta esos recursos para construir lo que vemos. No recibe necesariamente una imagen terminada de toda la página. Para recordar la secuencia: escribimos una dirección, el navegador solicita información y finalmente muestra el resultado.
+
+03:58–05:56 | Diapositiva 4: ¿Con qué se construye una web?
+En esta diapositiva aparecen tres tecnologías: HTML, CSS y JavaScript. Cada una cumple una función diferente. HTML define la estructura y el significado del contenido: nos permite indicar que algo es un título, un párrafo, una imagen o un enlace. CSS controla la apariencia y permite modificar colores, tamaños, espacios y la distribución de los elementos. JavaScript permite programar comportamientos e interacciones más elaboradas, como actualizar un contador al presionar un botón o filtrar una lista mientras escribimos. Podemos usar una casa como comparación: HTML organiza sus ambientes y elementos; CSS se relaciona con la pintura, los acabados y la decoración; y JavaScript puede representar mecanismos que responden a nuestras acciones. Es solo una comparación para recordar sus funciones. Además, no toda interacción necesita JavaScript: un enlace escrito en HTML ya permite navegar. En este curso nos concentraremos en HTML y CSS.
+
+05:56–06:58 | Diapositiva 5: HTML y CSS trabajan juntos
+Observemos los dos ejemplos. Ambos presentan casi el mismo contenido: un título, una breve presentación y un enlace. En el primero vemos HTML sin estilos personalizados. El navegador utiliza su apariencia predeterminada, por lo que el título y el párrafo ya son visibles. En el segundo se incorpora CSS. El contenido conserva su significado, pero cambia su presentación: aparecen otros colores, espacios y estilos. El título sigue siendo un título; lo que cambia es cómo lo vemos. Esta separación nos permite modificar la apariencia sin tener que reescribir todo el contenido. Ahora imagina tu propia página: ¿qué pondrías como título y qué color elegirías para representarte?
+
+06:58–07:19 | Diapositiva 6: Práctica 1 · ¡Hola, mundo!
+Nuestra primera práctica es un «Hola, mundo». Esta expresión suele utilizarse para una primera prueba: hacemos algo pequeño y comprobamos que funcione. Usaremos CodePen, una herramienta que permite escribir código web y observar el resultado en una vista previa. Vamos a crear un título y un párrafo.
+
+PARTE B — PRÁCTICA EN EL EDITOR EN LÍNEA
+
+07:19–07:53 | Abrir CodePen y reconocer sus paneles
+ACCIÓN: Abre CodePen y muestra los espacios de HTML, CSS y JavaScript, junto con la vista previa.
+GUION: Ya estamos en CodePen. Aquí encontramos espacios para HTML, CSS y JavaScript. En esta práctica trabajaremos únicamente en el panel HTML. La meta es mostrar un título y un párrafo. Mientras escribimos, observaremos dos cosas: las instrucciones que colocamos en el editor y el resultado que aparece en la vista previa. No necesitamos memorizar todo ahora; vamos a relacionar cada instrucción con lo que produce.
+
+07:53–08:34 | Crear el primer título
+ACCIÓN: En el panel HTML escribe <h1>¡Hola, mundo!</h1> y señala el título que aparece en la vista previa.
+GUION: Primero escribimos nuestro título. Usamos la etiqueta h1 para indicar que este texto es el encabezado principal de la página. Observa que hay una etiqueta al comienzo y otra al final. La segunda incluye una barra que señala el cierre. Entre ambas colocamos el contenido que queremos mostrar: «¡Hola, mundo!». Al escribirlo, podemos ver el título en la vista previa.
+
+08:34–09:28 | Agregar un párrafo
+ACCIÓN: Debajo del título agrega un párrafo con la etiqueta <p>. En el ejemplo se presenta al Chavo del 8 y se menciona que le gustan las tortas de jamón.
+GUION: Ahora vamos a agregar un párrafo debajo del título. Para eso usamos la etiqueta p y escribimos una breve presentación. En el ejemplo decimos: «Hola, soy el Chavo del 8» y contamos que le gustan las tortas de jamón. En la vista previa aparecen dos elementos diferentes: un encabezado principal y un texto de presentación. Las etiquetas no se muestran como texto porque el navegador las interpreta para saber qué representa el contenido.
+
+09:28–10:09 | Cambiar el texto del título
+ACCIÓN: Sustituye «¡Hola, mundo!» por «Bienvenidos a mi página» dentro de la etiqueta <h1>. Observa la vista previa.
+GUION: Vamos a realizar una modificación pequeña. Cambiaremos el texto «¡Hola, mundo!» por «Bienvenidos a mi página». Al hacerlo, el resultado también cambia. La estructura sigue siendo la misma porque conservamos las etiquetas; solamente actualizamos el texto que está dentro. Esta es una forma básica de trabajar: escribir, observar el resultado y ajustar. En la siguiente lección veremos con más detalle cómo se organizan las etiquetas.
+
+10:09–11:34 | Personalizar la presentación
+ACCIÓN: Cambia el título por «Mi espacio personal». Amplía el párrafo del ejemplo con las actividades del Chavo, como jugar fútbol con Kiko y la Chilindrina.
+GUION: Ahora nos toca personalizar nuestro primer ejemplo. Podemos escribir un título que represente la página, como «Mi espacio personal». También podríamos elegir «Mis pasatiempos» o una frase de bienvenida. Después escribimos un párrafo con una presentación breve y mencionamos algo que nos gusta hacer o un tema que nos interesa. En el ejemplo agregamos que al Chavo le gusta jugar fútbol con Kiko y la Chilindrina. Revisamos la vista previa para comprobar que aparezcan el título y el párrafo.
+
+11:34–12:07 | Revisar el código y proponer un reto
+ACCIÓN: Comprueba el resultado en la vista previa. Señala las etiquetas de apertura y cierre y revisa los signos del código.
+GUION: Revisemos el resultado. Si algo no se ve como esperabas, compara tu código con el ejemplo. Comprueba los signos menor y mayor y revisa que los nombres de las etiquetas de apertura y cierre correspondan. No te preocupes si necesitas corregir algo; revisar lo que escribimos forma parte del aprendizaje. Como reto, cambia el párrafo por una frase sobre tu pasatiempo favorito y observa cómo se actualiza la página.
+
+12:07–13:23 | Comprobar lo aprendido y cerrar
+ACCIÓN: Repasa las preguntas y muestra el resultado final. Al terminar, indica cómo conservar el ejemplo.
+GUION: Antes de terminar, comprobemos lo aprendido. ¿Qué aplicación utilizamos para abrir y explorar páginas web? Un navegador. ¿Qué tecnología usamos para organizar un título y un párrafo? HTML. ¿Qué tecnología nos permitirá modificar colores, tamaños y espacios? CSS. Hoy conocimos el recorrido básico de una página: el navegador solicita información, recibe los recursos y los interpreta para mostrar el resultado. También distinguimos las funciones de HTML, CSS y JavaScript. En la práctica escribimos un encabezado y un párrafo, observamos el resultado y cambiamos su contenido. Antes de salir, conserva tu ejemplo. Si trabajas sin iniciar sesión, puedes copiar el código en un archivo de texto para recuperarlo después. Tu reto es dejar una presentación que hable de ti. En la siguiente lección profundizaremos en HTML y aprenderemos a organizar mejor los contenidos de una página.
