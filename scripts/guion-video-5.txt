@@ -1,0 +1,49 @@
+VIDEO 5 — Tu primera página web
+Responsable: integrante 5
+Duración: 11 minutos y 03 segundos (aprox. 5 min teoría + 6 min práctica)
+
+PARTE A — EXPLICACIÓN CON DIAPOSITIVAS
+
+00:00–00:27 | Diapositiva 1: Tu primera página web
+Hola. Bienvenidos a la quinta y última lección del curso. Hoy vamos a combinar todo lo que hemos aprendido para tener nuestra primera página web. Usaremos HTML para organizar el contenido y CSS para darle un buen diseño. También aprenderemos a revisar errores comunes antes de mostrar el resultado. Al final, podrás personalizar una página con tus propios intereses.
+
+00:27–01:05 | Diapositiva 2: Nuestro proyecto: una página de perfil
+Nuestro proyecto final consiste en crear una página de perfil personal. La idea es presentar quiénes somos y qué cosas nos gustan en un solo lugar. Para eso necesitaremos un título y una breve presentación, una lista de intereses o pasatiempos, una imagen y un enlace. Además, aplicaremos colores y estilos para que la página sea más agradable de leer. No buscamos hacer un sitio complicado, sino reunir correctamente los elementos que ya conocemos.
+
+01:05–01:47 | Diapositiva 3: Tres pasos para terminar tu sitio
+Para completar nuestra página vamos a seguir tres pasos. Primero, organizamos el contenido con HTML: colocamos el título, los párrafos, las secciones, la lista, la imagen y el enlace. Segundo, aplicamos CSS para mejorar los colores, la letra, los márgenes, los espacios y los bordes. Finalmente, verificamos el resultado en el navegador. Este orden nos ayuda a trabajar de manera organizada: primero comprobamos qué información queremos mostrar y después nos preocupamos por su apariencia.
+
+01:47–03:31 | Diapositiva 4: Antes de entregar, revisa tu código
+Antes de dar por terminada una página, debemos revisar nuestro código. Muchas veces los errores son pequeños, pero hacen que el resultado no se vea como esperamos. El primero es olvidar cerrar una etiqueta HTML. Por ejemplo, si abrimos un título con <h1>, tenemos que cerrarlo con </h1>. Lo mismo sucede con los párrafos y otros elementos que necesitan apertura y cierre. El segundo error aparece al escribir CSS. Una regla necesita llaves, y sus propiedades se escriben con dos puntos y, normalmente, un punto y coma al final. Si olvidamos alguno de estos signos, es posible que el estilo no se aplique correctamente. El tercer problema es que una imagen no cargue. En ese caso hay que revisar el valor de src, que indica su dirección, y también incluir alt, que describe la imagen. Por último, debemos comprobar que el texto se pueda leer bien. Si los colores tienen poco contraste o la letra es demasiado pequeña, la página será incómoda para quien la visite. Por eso es importante revisar tanto el código como el resultado visual y corregir lo que haga falta.
+
+03:31–04:23 | Diapositiva 5: Comprueba lo que has aprendido
+Ahora vamos a repasar tres ideas importantes. La primera corresponde a HTML: ¿qué etiqueta utilizamos para crear un enlace? Recordemos que es la etiqueta <a>, y que el atributo href indica la dirección a la que queremos ir. La segunda pregunta es sobre CSS: ¿qué propiedad cambia el color del fondo? Podemos usar background-color para darle un color de fondo a un elemento. Y la tercera pregunta es sobre calidad: ¿para qué sirve alt en una imagen? Nos permite describir su contenido y facilita la accesibilidad. Estas tres preguntas nos ayudan a comprobar lo aprendido antes de pasar a la práctica.
+
+04:23–04:45 | Diapositiva 6: Reto final · Publica tu idea
+Llegamos al reto final. Vamos a abrir nuestro proyecto en CodePen para personalizar el perfil. Cambiaremos algunos textos e intereses, revisaremos los estilos y comprobaremos que los elementos funcionen correctamente. La meta es terminar con una página hecha con HTML y CSS que puedas seguir modificando a tu gusto. Pasemos al editor.
+
+PARTE B — PRÁCTICA EN EL EDITOR EN LÍNEA
+
+04:45–05:35 | Abrir CodePen y reconocer la estructura
+ACCIÓN: Muestra CodePen con los paneles HTML y CSS y la vista previa del proyecto de perfil.
+GUION: Ya estamos en CodePen, nuestro editor web en línea. En el panel de la izquierda encontramos el código HTML, que contiene la estructura del perfil. Aquí podemos ver el elemento principal, el encabezado y las distintas secciones. En el panel CSS tenemos las reglas que controlan la apariencia de la página, como los colores, el tamaño de la letra y los espacios. En la parte inferior aparece la vista previa, que nos permite observar el resultado mientras hacemos cambios. Vamos a empezar personalizando el contenido.
+
+05:35–06:35 | Personalizar el nombre y la presentación
+ACCIÓN: Ubica el encabezado del HTML y cambia el nombre mostrado en el <h1>, de «¡Hola! Soy Alex» a «¡Hola! Soy Sam». Observa el resultado en la vista previa.
+GUION: Primero buscamos el título principal de nuestra página. Este texto se encuentra dentro de la etiqueta <h1>, que sirve para colocar el encabezado más importante. Vamos a cambiar el nombre de ejemplo por otro; en este caso, escribiremos «¡Hola! Soy Sam». Al hacerlo, el contenido se actualiza en la vista previa. También encontramos un subtítulo y una frase de presentación. Podemos editar estas líneas para describirnos con nuestras propias palabras, pero debemos conservar las etiquetas para no alterar la estructura del documento.
+
+06:35–07:45 | Cambiar los pasatiempos y revisar la lista
+ACCIÓN: Desplázate a la sección «Mis pasatiempos» y personaliza los elementos <li>. En el video quedan «Crear animaciones», «Tocar guitarra» y «Programar minijuegos». Muestra la lista en la vista previa.
+GUION: Ahora bajamos hasta la sección de pasatiempos. Aquí tenemos una lista creada con <ul> y varios elementos <li>. Cada elemento representa una actividad diferente. Vamos a reemplazar los ejemplos originales por otros intereses: crear animaciones, tocar guitarra y programar minijuegos. Lo importante es cambiar el texto que está dentro de cada etiqueta, sin borrar las etiquetas de la lista. Cuando observamos la vista previa, vemos que los pasatiempos aparecen uno debajo del otro. Así comprobamos que HTML está organizando la información de forma correcta.
+
+07:45–08:45 | Revisar los estilos CSS y los colores
+ACCIÓN: Revisa las reglas CSS del body, la clase .tarjeta y los encabezados. Modifica el color del título principal y comprueba el cambio en la página.
+GUION: Con el contenido personalizado, podemos revisar la apariencia de nuestro sitio. En el panel CSS encontramos las propiedades del body, que controlan el fondo y el estilo general de la página. También está la clase .tarjeta, que permite centrar el contenido, darle márgenes, relleno, un borde y esquinas redondeadas. Podemos modificar los estilos de los títulos para diferenciarlos del resto del texto. En este ejemplo, el encabezado principal adquiere un tono verde. Al hacer cambios, debemos comprobar que los colores sigan teniendo suficiente contraste para que todo sea fácil de leer.
+
+08:45–09:45 | Comprobar la imagen y el enlace
+ACCIÓN: Localiza la etiqueta <img> y revisa sus atributos src y alt. Después ubica el enlace del pie de página, que apunta a MDN Web Docs, y comprueba que abra la página correspondiente.
+GUION: Continuamos con los otros elementos que debe tener el perfil. En el código HTML encontramos una imagen de ejemplo. El atributo src indica de dónde se obtiene esa imagen, mientras que alt contiene una descripción para cuando no se puede visualizar y para mejorar la accesibilidad. También tenemos un enlace en la parte final de la página. Ese enlace utiliza la etiqueta <a> y el atributo href para llevarnos a un recurso de aprendizaje sobre desarrollo web. Vamos a comprobar que la dirección funcione y que el visitante pueda acceder a ella.
+
+09:45–11:03 | Revisar el diseño y mostrar el resultado final
+ACCIÓN: Comprueba la página completa en la vista previa. Revisa que el perfil conserve sus secciones y los estilos de la tarjeta; observa los cambios de presentación y muestra el resultado final.
+GUION: Para terminar, vamos a hacer una revisión general de nuestra página. Comprobamos que el encabezado muestre el nombre elegido, que la sección «Sobre mí» siga visible y que la lista incluya nuestros nuevos pasatiempos. También verificamos que la imagen y el enlace estén en el código. Ahora observamos cómo influye CSS en el diseño: si faltan los estilos de la tarjeta, el contenido se extiende y pierde parte de su presentación; al mantenerlos, recuperamos una página centrada, con espacios y bordes definidos. Esta comparación nos recuerda que HTML organiza la información y CSS determina cómo la vemos. Con esto hemos integrado lo aprendido durante el curso. Como reto, puedes seguir cambiando los textos, los colores o añadir una sección nueva a tu perfil.
